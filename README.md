@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to predict Yelp user ratings for businesses using a model-based recommendation system. By integrating multiple Yelp datasets and employing feature engineering, the system leverages user behavior, business characteristics, spatial details, and temporal factors to produce accurate rating predictions. The final model, trained using XGBoost with hyperparameter optimization, achieves a Root Mean Square Error (RMSE) of approximately **0.97599** on the validation set.
+This project aims to predict Yelp user ratings for businesses using a model-based recommendation system. By integrating multiple Yelp datasets and employing feature engineering, the system leverages user behavior, business characteristics, spatial details, and temporal factors to produce accurate rating predictions. The final model, trained using XGBoost with hyperparameter optimization, achieves a Root Mean Square Error (RMSE) of approximately **0.9743** on the test set.
 
 ## Key Features
 
@@ -27,7 +27,7 @@ This project aims to predict Yelp user ratings for businesses using a model-base
 
 ## Results & Performance
 
-**RMSE:** ~0.97599 on the validation set.
+**RMSE:** ~0.9743 on the test set.
 
 **Error Distribution:**
 - Predictions within 1 star of the true rating: 102,587
