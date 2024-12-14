@@ -1,4 +1,4 @@
-# Yelp Rating Prediction Using Model-Based Recommendation with XGBoost
+# Model-Based Recommendation with XGBoost
 
 ## Project Overview
 
