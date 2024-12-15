@@ -4,7 +4,7 @@
 
 This project predicts Yelp user ratings for businesses using a model-based recommendation system. By integrating data from multiple Yelp datasets and applying advanced feature engineering techniques, the system accurately models the interaction between users and businesses. The final model is powered by **XGBoost** with optimized hyperparameters, achieving a **Root Mean Square Error (RMSE)** of approximately **0.9743** on the test set.
 
-Data has not been provided as part of use agreement.
+Train and Test data has not been provided as part of use agreement.
 
 ## Key Highlights
 
