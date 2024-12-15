@@ -52,17 +52,6 @@ This project predicts Yelp user ratings for businesses using a model-based recom
 - **Algorithm**: [XGBoost](https://xgboost.ai/), a gradient boosting framework, was used for its ability to handle sparse data and its scalability.
 - **Hyperparameter Tuning**:
   - Used **Optuna**, an advanced optimization framework, to tune parameters such as `learning_rate`, `max_depth`, `subsample`, `gamma`, `colsample_bytree`, `reg_alpha`, and `reg_lambda`.
-  - Final hyperparameters:
-    ```json
-    {"n_estimators": 287,
-        "max_depth": 7,
-        "learning_rate": 0.0596,
-        "gamma": 0.227,
-        "colsample_bytree": 0.699,
-        "subsample": 0.977,
-        "reg_alpha": 0.591,
-        "reg_lambda": 1.898}
-    ```
 
 ---
 
