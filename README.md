@@ -71,3 +71,18 @@ This project predicts Yelp user ratings for businesses using a model-based recom
 - **Cloud Environment**: ~523 seconds.
 
 ---
+
+### Parameters
+The script accepts the following parameters:
+
+- `<folder_path>`: Path to the directory containing all input files (e.g., `yelp_train.csv`, `user.json`, etc.).
+- `<testing_set>`: Path to the test CSV file (e.g., `yelp_test.csv`).
+- `<output>`: Path to the output file where predictions will be saved.
+
+### Example Command
+To run the recommendation system, use the following command:
+
+```bash
+python recommendation_system.py data yelp_test.csv predictions.csv
+
+---
