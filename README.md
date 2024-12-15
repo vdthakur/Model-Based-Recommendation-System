@@ -38,7 +38,7 @@ This project predicts Yelp user ratings for businesses using a model-based recom
 
 ### 2. **Datasets Used**
 - **`yelp_train.csv`**: Training data linking users to businesses and their ratings.
-- **`yelp_test.csv`**: Test data used for prediction and evaluation.
+- **`yelp_val.csv`**: Test data used for prediction and evaluation.
 - **`user.json`**: Contains user information, including review counts, average stars, and compliments.
 - **`business.json`**: Details about businesses, such as location, attributes, and total reviews.
 - **`checkin.json`**: Check-in frequency data for businesses.
